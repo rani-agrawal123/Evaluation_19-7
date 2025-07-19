@@ -2,6 +2,7 @@
 import Profile from "../../EvalPages/Profile";
 
 describe('',()=>{
+    const prof = new Profile();
     before(()=>{
         cy.log('Starting of page');
     })
@@ -9,7 +10,6 @@ describe('',()=>{
         cy.visit('https://www.skillsoft.com/book/web-automation')
     })
     it('Testing of Profile',()=>{
-      
-
+      prof.profile();
     })
 })

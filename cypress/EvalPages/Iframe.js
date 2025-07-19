@@ -8,3 +8,4 @@ class Iframe{
         cy.iframe().find('#_hjSafeContext_47441005').click();
     }
 }
+export default Iframe;
